@@ -381,7 +381,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "≢".join(uuid)
   try:
-    httpCaht = requests.get('https://raw.githubusercontent.com/SXB-BRAND/Premium/main/Approval.txt').text
+    httpCaht = requests.get('https://raw.githubusercontent.com/Poran07/Poran/main/Approval%20tex.444').text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
       msg = str(os.geteuid())
